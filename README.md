@@ -1,10 +1,10 @@
-# Product-Review-Sentiment-Analyzer
+# Product-Review-Sentiment-Analysis
 
 
 ### SETUP
 dockerfile
 docker build -t sentiment-analysis .
-docker run -p 8888:8888 -v C:/Users/User/Desktop/Product-Review-Sentiment-Analyzer:/app sentiment-analysis
+docker run -p 8888:8888 -v C:/Users/User/Workspaces/01-Projects/Product-Review-Sentiment-Analysis:/app sentiment-analysis
 
 ### 1. Text pre-processing
 lower case only, no punctuation
